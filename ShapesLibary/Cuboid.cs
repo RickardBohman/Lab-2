@@ -37,8 +37,8 @@ namespace ShapesLibary
 
         public override string ToString()
         {
-            return IsCube? $"Cube @:{_center.ToString("f2")} w , h & l = {_size.X.ToString("f2")}" :
-                $"Cuboid @:{_center.ToString("f2")} w = {_size.X.ToString("f2")} h = {_size.Y.ToString("f2")} l = {_size.Z.ToString("f2")}";
+            return IsCube? $"Cube @:{_center.ToString("f2")} w , h & l = {_size.X.ToString("f2")} Area : {Area}" :
+                $"Cuboid @:{_center.ToString("f2")} w = {_size.X.ToString("f2")} h = {_size.Y.ToString("f2")} l = {_size.Z.ToString("f2")}, Area {Area}";
         }
       }
 

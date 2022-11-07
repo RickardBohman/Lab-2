@@ -14,10 +14,11 @@ for (int i = 0; i < Shapes.Length;i++)
 foreach (Shape shape in Shapes)
 {
     Console.WriteLine(shape);
-    totalArea =+ shape.Area;
+    totalArea += shape.Area;
 }
 
 float totalSum = totalArea / 20;
+
 
 Console.WriteLine("--------------------");
 

@@ -27,7 +27,7 @@ namespace ShapesLibary
 
         public override float Area => (float)Math.PI * areaRadius * areaRadius;
 
-        public override string ToString() => $"circle @{_center.ToString("f2")}: r ={_radius.ToString("f2")}";
+        public override string ToString() => $"circle @{_center.ToString("f2")}: r ={_radius.ToString("f2")}, Area: {Area}";
 
     }
 

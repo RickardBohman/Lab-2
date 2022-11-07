@@ -20,7 +20,7 @@ namespace ShapesLibary
 
         public override float Volume => (4 * (float)Math.PI * (_radius * _radius * _radius)) / 3;
 
-        public override string ToString() => $"Sphere @:{_center.ToString("f2")} r = {_radius.ToString("f2")}";
+        public override string ToString() => $"Sphere @:{_center.ToString("f2")} r = {_radius.ToString("f2")}, Area {Area}";
     }
 
 }

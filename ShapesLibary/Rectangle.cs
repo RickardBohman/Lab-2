@@ -36,8 +36,8 @@ namespace ShapesLibary
 
         public override string ToString()
         {
-            return IsSquare ? $"Square @:{_center.ToString("f2")} w == h {_size.X.ToString("f2")}" :
-                $"Rectangle @{ _center.ToString("f2")}: w = { _size.X.ToString("f2")} , h = { _size.Y.ToString("f2")}";
+            return IsSquare ? $"Square @:{_center.ToString("f2")} w == h {_size.X.ToString("f2")}, Area: {Area}" :
+                $"Rectangle @{ _center.ToString("f2")}: w = { _size.X.ToString("f2")} , h = { _size.Y.ToString("f2")}, Area: {Area}";
         }
 
     }
